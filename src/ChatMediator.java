@@ -1,0 +1,6 @@
+public interface ChatMediator {
+
+    void register(ChatUser user);
+
+    void send(String message, ChatUser sender);
+}
